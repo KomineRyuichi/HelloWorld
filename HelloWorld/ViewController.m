@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     UILabel *label = [[UILabel alloc] init];
-    label.text = @"!!!!!!こんにちは 世界!!!!!お元気ですか!!!!!";
+    label.text = @"!!!!!!こんにちは 世界!!!!!お元気ですか!!!!!おやすみ!!!!!";
     label.center = self.view.center;
     [label sizeToFit];
     [self.view addSubview:label];
